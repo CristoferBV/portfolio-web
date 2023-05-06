@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -133,12 +133,12 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <Link legacyBehavior href="/">
             <a>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                <HiOutlineChevronDoubleUp
-                  className="text-[#5651e5]"
-                  size={30}
-                />
-              </div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <HiOutlineChevronDoubleUp
+                    className="text-[#5651e5]"
+                    size={30}
+                    />
+                </div>
             </a>
           </Link>
         </div>
