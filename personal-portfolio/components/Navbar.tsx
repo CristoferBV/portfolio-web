@@ -1,13 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
+
 const Navbar = () => {
 
   const [nav, setNav] = useState(false)
+
 
   const handleNav = () => { //Metodo que servirá para abrir o cerrar el menú mobile
     setNav(!nav)
@@ -24,19 +26,19 @@ const Navbar = () => {
         />
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="#">
               <li className="ml-10 text-sm uppercase hover:border-b font-semibold">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="#About">
               <li className="ml-10 text-sm uppercase hover:border-b font-semibold">About</li>
             </Link>
-            <Link href="/">
+            <Link href="#Skills">
               <li className="ml-10 text-sm uppercase hover:border-b font-semibold">Skills</li>
             </Link>
-            <Link href="/">
+            <Link href="#Projects">
               <li className="ml-10 text-sm uppercase hover:border-b font-semibold">Projects</li>
             </Link>
-            <Link href="/">
+            <Link href="#Contact">
               <li className="ml-10 text-sm uppercase hover:border-b font-semibold">Contact</li>
             </Link>
           </ul>

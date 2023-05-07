@@ -16,7 +16,8 @@ const Main = () => {
                 A Front-End Web Developer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat doloribus cum expedita delectus. Aliquam cupiditate nostrum minus id sed provident nesciunt praesentium debitis laudantium accusantium earum, quibusdam impedit quo laborum!
+                In this portfolio contains all the information you want from me!
+I invite you to follow all my contacts to be in communication with me to try to reach an agreement if necessary. I assure you that I will help you to solve all your problems!
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>

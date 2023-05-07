@@ -44,6 +44,7 @@ const Projects = () => {
   };
 
   return (
+    <section id="Projects">
     <div className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651a5]">
@@ -64,7 +65,7 @@ const Projects = () => {
                       </h2>
                     </div>
                     <div className="py-1">
-                      <p className="text-black text-lg py-4 font-light leading-loose">
+                      <p className="text-black text-lg py-4 leading-loose font-semibold">
                         {project.description}
                       </p>
                     </div>
@@ -83,6 +84,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

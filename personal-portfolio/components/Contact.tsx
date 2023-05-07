@@ -9,6 +9,7 @@ import ContactImg from "../public/assets/contact.jpg";
 
 const Contact = () => {
   return (
+    <section id="Contact">
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
@@ -38,7 +39,7 @@ const Contact = () => {
                 <p className="uppercase pt-8 font-bold">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/pulse/creating-stunning-image-gallery-unsplash-api-nextjs-barrios-valverde-1c"
+                    href="https://www.linkedin.com/in/cristofer-barrios-valverde-326762275/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -123,7 +124,7 @@ const Contact = () => {
                     name="message"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4 font-semibold">
+                <button className="w-full p-4 text-gray-100 mt-4 font-semibold hover:scale-95 ease-in duration-300">
                   Send Message
                 </button>
               </form>
@@ -144,6 +145,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
