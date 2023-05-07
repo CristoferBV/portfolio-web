@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import imageMe from '../public/assets/me.jpg'
 
 const About = () => {
   return (
@@ -27,7 +28,7 @@ const About = () => {
           <div className="w-full h-auto m-auto shadow-gray-400 rounded-xl flex items-center justify-center py-4 hover:scale-105 ease-in duration-300">
             <Image
               className="rounded-xl"
-              src="/assets/me.jpg"
+              src={imageMe}
               alt="/"
               height={300}
               width={350}

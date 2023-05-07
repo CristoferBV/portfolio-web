@@ -4,6 +4,7 @@ import React, {useEffect, useState} from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import logoDev from "../public/assets/logo2.png"
 
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/assets/logo2.png"
+          src={logoDev}
           alt="/"
           width="125"
           height="50"
@@ -54,7 +55,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/assets/logo2.png"
+                src={logoDev}
                 width="125"
                 height="50"
                 alt="/"
