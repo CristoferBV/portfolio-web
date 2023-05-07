@@ -25,19 +25,19 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b font-semibold">Home</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b font-semibold">About</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b font-semibold">Skills</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
+              <li className="ml-10 text-sm uppercase hover:border-b font-semibold">Projects</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
+              <li className="ml-10 text-sm uppercase hover:border-b font-semibold">Contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
